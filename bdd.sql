@@ -1,5 +1,7 @@
 CREATE DATABASE Mcdonalds;
 
+ USE Mcdonalds ;
+
 CREATE TABLE category(
     id INT PRIMARY KEY AUTO_INCREMENT,
     name TEXT, 
