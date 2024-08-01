@@ -46,5 +46,7 @@ cartId INT,
 
 CREATE TABLE order(
  id INT PRIMARY KEY AUTO_INCREMENT,
-     total FLOAT
+ date DATETIME,
+ validation TINYINT,
+ total FLOAT
    );
